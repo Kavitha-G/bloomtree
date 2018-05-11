@@ -1,9 +1,9 @@
 # bloomtree
 Implementation of BloomTree - A Space-Efficient Approximate Representation for Graphs
 
-## Dependencies
-* MurmurHash3
-MurmurHash3.cpp and .h files are found in https://github.com/aappleby/smhasher/blob/master/src
+## Prerequisites
+MurmurHash3 has been used as the hash function in the bloom filter. 
+The code for MurmurHash3 can be found in https://github.com/aappleby/smhasher/blob/master/src
 
 ## BloomTree class
 ```
