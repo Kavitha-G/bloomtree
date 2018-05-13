@@ -59,8 +59,6 @@ class BloomTree {
 	
 	// Number of vertices.
 	int num_vertices;
-	// Paths to vertices in bloom tree.
-	vector<bool> vertex_path;
 	// The bloom filter for storing the bloom tree.
 	BloomFilter bf;
 };
